@@ -1,0 +1,7 @@
+figdir_outputs: /python/figures/navigation_2D
+gen_timing_results: False
+
+noise_models:
+  odometryNoise:  [0.05, 0.05]
+  poseInitNoise: [0.05, 0.05]
+  priorNoise:  [0.05, 0.05]

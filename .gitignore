@@ -1,0 +1,10 @@
+build/
+gtsam/build/
+wrap/build/
+python/figures
+python/examples/navigation_2D/outputs
+python/examples/path_planning/outputs
+python/examples/planar_pushing/outputs
+python/pybullet-sim-pushing/local/outputs
+python/examples/outputs
+.vscode

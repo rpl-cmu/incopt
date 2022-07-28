@@ -1,0 +1,15 @@
+srcdir_dataset: /local/datasets
+dataset_name: logFBTraj6 # Select trajectrory: logFBTrajX where X = 0, 1, 2, 3, 4, 5, 6 
+dstdir_outputs: /local/outputs
+figdir_outputs: /python/figures/planar_pushing
+
+save_graph: False
+plot_trajectory: False # Set to true to plot the trajectory
+max_steps: 350
+
+noise_models: # std values
+  first_pose_prior: [1e-5, 1e-5, 1e-5]
+  eff_pose_prior: [1e-3, 1e-3, 1e-3]
+
+  odom_motion: [2.5e-3, 2.5e-3, 1e-3] 
+  contact_proj: [1., 1., 1.]
