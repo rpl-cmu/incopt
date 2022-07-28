@@ -60,12 +60,6 @@ From the root directory:
   sudo ./rebuild_all.sh
 ```
 
-## Install incoptpy 
-```
-cd python 
-pip install -e .
-```
-
 # Running the python examples 
 
 ## 2D Navigation 
