@@ -114,7 +114,7 @@ class GTSAM_EXPORT ISAM2 : public BayesTree<ISAM2Clique> {
   typedef bm_keyorder::right_map::const_iterator right_bm_keyorder_const_iterator;
   */
 
-  bool enableConstraints_;
+  bool enableConstraints_ = false;
   NonlinearFactorGraph nonlinearConstraintFactors_;
 
 
